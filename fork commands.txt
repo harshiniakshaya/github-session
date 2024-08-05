@@ -1,0 +1,44 @@
+1. Fork the repository
+	Click the "Fork" button in the top right corner of the repository page.	
+
+2. Clone the forked repository
+	git clone <repo name>
+
+3. Create a branch 
+	git branch <branch name>	(Create a new branch)
+	git checkout <branch name>	(Switch to the new branch)
+	----or----
+	git checkout -b <branch name>	
+
+4. Make changes (add, commit and push)
+	git add .
+	git commit -m "Description of changes"
+	git push origin <branch name>
+
+5. Create a Pull Request
+	 Click the "Compare & pull request" button next to your branch name and fill out the pull request form.
+
+----------------------------------------------------------
+
+1. Review the Pull Request
+	Click on the "Pull requests" tab to see all open pull requests.
+
+2. Review the code and test the changes
+	git fetch origin pull/<id number>/head:<branch name>
+	example : git fetch origin pull/1/head:firstpull
+
+	git checkout <branch name>
+	example : git checkout firstpull
+
+	code .	(opens the current directory in Visual Studio Code)
+
+3. Merge the Pull Request
+	Click the "Merge pull request" button.
+
+4. Once merged, you can delete the branch in the pull request view by clicking "Delete branch.
+    ----or----
+    If you decide not to merge the pull request, you can close it by clicking the "Close pull request" button.
+	
+
+
+	
