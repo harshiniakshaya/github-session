@@ -1,0 +1,34 @@
+1. Settings
+
+2. Side Navigation Bar (Pages)
+
+3. Branch (Select the main branch)
+
+4. Save
+
+5. Navigate to Actions to check the deployment status
+
+6. Return to GitHub Pages to view the deployed link
+
+7. If code is present inside folders, append /<folder-name> to the root URL
+
+----------------------------------------------
+
+The deployed link can be accessed from anywhere over the internet, making it ideal for showcasing your static projects.
+
+=> What can be deployed?
+
+	Static websites - Personal portfolios, project showcases, etc.,
+	HTML, CSS, and JavaScript files
+	Simple web applications - Web applications that are built entirely with client-side technologies.
+
+=> What cannot be deployed?
+
+	Server-side scripts (e.g., PHP, Node.js)
+	Databases - GitHub Pages does not support database connections
+	Dynamic content requiring server-side processing - : User authentication, etc .,
+
+
+
+
+
