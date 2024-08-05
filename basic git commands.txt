@@ -1,0 +1,14 @@
+1. Cloning the repository locally:
+	git clone <repo link>
+
+2. Show the status of changes in the project
+	git status
+
+3. Stage changes for the next commit (Mark files to be saved)
+	git add <file name> or git add .
+
+4. Save a snapshot of staged changes (Save the marked changes)
+	git commit -m "<commit message>"
+
+5. Send commits to the remote repository (Send your changes to the online repo)
+	git push origin main
