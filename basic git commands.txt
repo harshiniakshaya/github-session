@@ -12,3 +12,14 @@
 
 5. Send commits to the remote repository (Send your changes to the online repo)
 	git push origin main
+
+------------------------------------------
+
+1. Create a new branch
+	git branch <branch name>
+
+2. Switch to another branch
+	git checkout <branch name>
+
+3. View all branches
+	git branch
